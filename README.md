@@ -1,3 +1,15 @@
+---
+title: Student Performance Prediction
+emoji: 🎓
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: "1.40.2"
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # 🎓 Student Performance Prediction - Machine Learning Project
 
 A comprehensive machine learning system that predicts student final grades using academic and social features. This project includes two models: a **Baseline Random Forest** and a **Fairness-Aware XGBoost** model with SHAP explainability.
