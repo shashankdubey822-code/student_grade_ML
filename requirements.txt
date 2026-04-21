@@ -1,6 +1,6 @@
 streamlit==1.40.2
 numpy==1.26.4
-scikit-learn==1.4.2
+scikit-learn==1.5.1
 xgboost==2.0.3
 fairlearn==0.10.0
 shap==0.45.1
