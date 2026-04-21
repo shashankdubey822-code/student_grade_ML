@@ -1,0 +1,328 @@
+- generic [ref=e2]:
+  - generic [ref=e11]:
+    - heading "Student Feature Inputs" [level=2] [ref=e15]
+    - generic [ref=e17]:
+      - paragraph [ref=e21]: school
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: GP
+          - combobox "Selected GP. school" [ref=e27]
+        - img "open" [ref=e29]
+    - generic [ref=e32]:
+      - paragraph [ref=e36]: sex
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]: F
+          - combobox "Selected F. sex" [ref=e42]
+        - img "open" [ref=e44]
+    - generic [ref=e47]:
+      - paragraph [ref=e51]: address
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: R
+          - combobox "Selected R. address" [ref=e57]
+        - img "open" [ref=e59]
+    - generic [ref=e62]:
+      - paragraph [ref=e66]: famsize
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e70]: GT3
+          - combobox "Selected GT3. famsize" [ref=e72]
+        - img "open" [ref=e74]
+    - generic [ref=e77]:
+      - paragraph [ref=e81]: Pstatus
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]: A
+          - combobox "Selected A. Pstatus" [ref=e87]
+        - img "open" [ref=e89]
+    - generic [ref=e92]:
+      - paragraph [ref=e96]: Mjob
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]: at_home
+          - combobox "Selected at_home. Mjob" [ref=e102]
+        - img "open" [ref=e104]
+    - generic [ref=e107]:
+      - paragraph [ref=e111]: Fjob
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]: at_home
+          - combobox "Selected at_home. Fjob" [ref=e117]
+        - img "open" [ref=e119]
+    - generic [ref=e122]:
+      - paragraph [ref=e126]: reason
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: course
+          - combobox "Selected course. reason" [ref=e132]
+        - img "open" [ref=e134]
+    - generic [ref=e137]:
+      - paragraph [ref=e141]: guardian
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e145]: father
+          - combobox "Selected father. guardian" [ref=e147]
+        - img "open" [ref=e149]
+    - generic [ref=e152]:
+      - paragraph [ref=e156]: schoolsup
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]: "no"
+          - combobox "Selected no. schoolsup" [ref=e162]
+        - img "open" [ref=e164]
+    - generic [ref=e167]:
+      - paragraph [ref=e171]: famsup
+      - generic [ref=e173]:
+        - generic [ref=e174]:
+          - generic [ref=e175]: "no"
+          - combobox "Selected no. famsup" [ref=e177]
+        - img "open" [ref=e179]
+    - generic [ref=e182]:
+      - paragraph [ref=e186]: paid
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - generic [ref=e190]: "no"
+          - combobox "Selected no. paid" [ref=e192]
+        - img "open" [ref=e194]
+    - generic [ref=e197]:
+      - paragraph [ref=e201]: activities
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - generic [ref=e205]: "no"
+          - combobox "Selected no. activities" [ref=e207]
+        - img "open" [ref=e209]
+    - generic [ref=e212]:
+      - paragraph [ref=e216]: nursery
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - generic [ref=e220]: "no"
+          - combobox "Selected no. nursery" [ref=e222]
+        - img "open" [ref=e224]
+    - generic [ref=e227]:
+      - paragraph [ref=e231]: higher
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - generic [ref=e235]: "no"
+          - combobox "Selected no. higher" [ref=e237]
+        - img "open" [ref=e239]
+    - generic [ref=e242]:
+      - paragraph [ref=e246]: internet
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - generic [ref=e250]: "no"
+          - combobox "Selected no. internet" [ref=e252]
+        - img "open" [ref=e254]
+    - generic [ref=e257]:
+      - paragraph [ref=e261]: romantic
+      - generic [ref=e263]:
+        - generic [ref=e264]:
+          - generic [ref=e265]: "no"
+          - combobox "Selected no. romantic" [ref=e267]
+        - img "open" [ref=e269]
+    - generic [ref=e273]:
+      - paragraph [ref=e277]: age
+      - generic [ref=e278]:
+        - slider "age" [ref=e282]:
+          - generic:
+            - generic:
+              - paragraph: "17"
+        - generic:
+          - generic:
+            - paragraph: "15"
+          - generic:
+            - paragraph: "22"
+    - generic [ref=e286]:
+      - paragraph [ref=e290]: Medu
+      - generic [ref=e291]:
+        - slider "Medu" [ref=e295]:
+          - generic:
+            - generic:
+              - paragraph: "2"
+        - generic:
+          - generic:
+            - paragraph: "0"
+          - generic:
+            - paragraph: "4"
+    - generic [ref=e299]:
+      - paragraph [ref=e303]: Fedu
+      - generic [ref=e304]:
+        - slider "Fedu" [ref=e308]:
+          - generic:
+            - generic:
+              - paragraph: "2"
+        - generic:
+          - generic:
+            - paragraph: "0"
+          - generic:
+            - paragraph: "4"
+    - generic [ref=e312]:
+      - paragraph [ref=e316]: traveltime
+      - generic [ref=e317]:
+        - slider "traveltime" [ref=e321]:
+          - generic:
+            - generic:
+              - paragraph: "1"
+        - generic:
+          - generic:
+            - paragraph: "1"
+          - generic:
+            - paragraph: "4"
+    - generic [ref=e325]:
+      - paragraph [ref=e329]: studytime
+      - generic [ref=e330]:
+        - slider "studytime" [ref=e334]:
+          - generic:
+            - generic:
+              - paragraph: "2"
+        - generic:
+          - generic:
+            - paragraph: "1"
+          - generic:
+            - paragraph: "4"
+    - generic [ref=e338]:
+      - paragraph [ref=e342]: failures
+      - generic [ref=e343]:
+        - slider "failures" [ref=e347]:
+          - generic:
+            - generic:
+              - paragraph: "0"
+        - generic:
+          - generic:
+            - paragraph: "0"
+          - generic:
+            - paragraph: "3"
+    - generic [ref=e351]:
+      - paragraph [ref=e355]: famrel
+      - generic [ref=e356]:
+        - slider "famrel" [ref=e360]:
+          - generic:
+            - generic:
+              - paragraph: "4"
+        - generic:
+          - generic:
+            - paragraph: "1"
+          - generic:
+            - paragraph: "5"
+    - generic [ref=e364]:
+      - paragraph [ref=e368]: freetime
+      - generic [ref=e369]:
+        - slider "freetime" [ref=e373]:
+          - generic:
+            - generic:
+              - paragraph: "3"
+        - generic:
+          - generic:
+            - paragraph: "1"
+          - generic:
+            - paragraph: "5"
+    - generic [ref=e377]:
+      - paragraph [ref=e381]: goout
+      - generic [ref=e382]:
+        - slider "goout" [ref=e386]:
+          - generic:
+            - generic:
+              - paragraph: "3"
+        - generic:
+          - generic:
+            - paragraph: "1"
+          - generic:
+            - paragraph: "5"
+    - generic [ref=e390]:
+      - paragraph [ref=e394]: Dalc
+      - generic [ref=e395]:
+        - slider "Dalc" [ref=e399]:
+          - generic:
+            - generic:
+              - paragraph: "1"
+        - generic:
+          - generic:
+            - paragraph: "1"
+          - generic:
+            - paragraph: "5"
+    - generic [ref=e403]:
+      - paragraph [ref=e407]: Walc
+      - generic [ref=e408]:
+        - slider "Walc" [ref=e412]:
+          - generic:
+            - generic:
+              - paragraph: "2"
+        - generic:
+          - generic:
+            - paragraph: "1"
+          - generic:
+            - paragraph: "5"
+    - generic [ref=e416]:
+      - paragraph [ref=e420]: health
+      - generic [ref=e421]:
+        - slider "health" [ref=e425]:
+          - generic:
+            - generic:
+              - paragraph: "3"
+        - generic:
+          - generic:
+            - paragraph: "1"
+          - generic:
+            - paragraph: "5"
+    - generic [ref=e429]:
+      - paragraph [ref=e433]: absences
+      - generic [ref=e434]:
+        - slider "absences" [ref=e438]:
+          - generic:
+            - generic:
+              - paragraph: "4"
+        - generic:
+          - generic:
+            - paragraph: "0"
+          - generic:
+            - paragraph: "75"
+    - generic [ref=e442]:
+      - paragraph [ref=e446]: G1
+      - generic [ref=e447]:
+        - slider "G1" [ref=e451]:
+          - generic:
+            - generic:
+              - paragraph: "12"
+        - generic:
+          - generic:
+            - paragraph: "0"
+          - generic:
+            - paragraph: "20"
+    - generic [ref=e455]:
+      - paragraph [ref=e459]: G2
+      - generic [ref=e460]:
+        - slider "G2" [ref=e464]:
+          - generic:
+            - generic:
+              - paragraph: "13"
+        - generic:
+          - generic:
+            - paragraph: "0"
+          - generic:
+            - paragraph: "20"
+  - generic [ref=e3]:
+    - banner [ref=e468]:
+      - generic [ref=e471]:
+        - button "Deploy" [ref=e473] [cursor=pointer]:
+          - generic [ref=e475]: Deploy
+        - button "Main menu" [ref=e477] [cursor=pointer]:
+          - img [ref=e478]
+    - generic [ref=e481]:
+      - heading "🎓 Student Performance Prediction" [level=1] [ref=e486]:
+        - text: 🎓 Student Performance Prediction
+        - generic [ref=e487]:
+          - link "Link to heading":
+            - /url: "#student-performance-prediction"
+            - img
+      - paragraph [ref=e492]: Predict a student's final grade (G3) using academic and social features.
+      - generic [ref=e494]:
+        - paragraph [ref=e498]: Select Model
+        - radiogroup "Select Model" [ref=e499] [cursor=pointer]:
+          - generic [ref=e500]:
+            - radio "Baseline Random Forest" [checked]
+            - paragraph [ref=e505]: Baseline Random Forest
+          - generic [ref=e506]:
+            - radio "Fairness-Aware XGBoost"
+            - paragraph [ref=e511]: Fairness-Aware XGBoost
+      - button "Predict Final Grade" [ref=e514] [cursor=pointer]:
+        - paragraph [ref=e518]: Predict Final Grade
