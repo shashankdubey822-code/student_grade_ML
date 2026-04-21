@@ -1,6 +1,6 @@
 import pickle
 import numpy as np
-import numpy as np
+import pandas as pd
 import streamlit as st
 import shap
 import matplotlib.pyplot as plt
@@ -82,8 +82,9 @@ model_choice = st.radio(
 )
 
 if st.button("Predict Final Grade", type="primary"):
-    input_df       = np.array([user_input])
-    model          = rf_model if "Random Forest" in model_choice else fair_model
+    # Convert user input dict to pandas DataFrame with features in correct order
+    input_df = pd.DataFrame([[user_input[feat] for feat in feature_names]], columns=feature_names)
+    model    = rf_model if "Random Forest" in model_choice else fair_model
     predicted_grade = float(model.predict(input_df)[0])
 
     st.subheader("Prediction Result")
