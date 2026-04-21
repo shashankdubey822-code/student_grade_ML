@@ -1,25 +1,27 @@
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 WORKDIR /app
 
-# Install system dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
+    git \
+    git-lfs \
+    ffmpeg \
+    libsm6 \
+    libxext6 \
+    cmake \
+    rsync \
+    libgl1 \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements
 COPY requirements.txt .
 
-# Install Python dependencies with cache
-RUN --mount=type=cache,target=/root/.cache/pip \
-    pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir streamlit
 
-# Copy app files
 COPY app.py .
 COPY student_performance_production_bundle.pkl .
 
-# Expose port (Cloud Run uses 8080)
 EXPOSE 8080
 
-# Run Streamlit
 CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
