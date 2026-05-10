@@ -12,7 +12,27 @@ license: mit
 
 # 🎓 Student Performance Prediction - Machine Learning Project
 
+[![GitHub stars](https://img.shields.io/github/stars/shashankdubey822-code/student_grade_ML?style=social)](https://github.com/shashankdubey822-code/student_grade_ML)
+[![GitHub forks](https://img.shields.io/github/forks/shashankdubey822-code/student_grade_ML?style=social)](https://github.com/shashankdubey822-code/student_grade_ML/network/members)
+[![GitHub license](https://img.shields.io/github/license/shashankdubey822-code/student_grade_ML)](https://github.com/shashankdubey822-code/student_grade_ML/blob/main/LICENSE)
+
 A comprehensive machine learning system that predicts student final grades using academic and social features. This project includes two models: a **Baseline Random Forest** and a **Fairness-Aware XGBoost** model with SHAP explainability.
+
+---
+
+## 🚀 Badges Achieved
+*Working towards 15+ GitHub Achievements!*
+
+| Achievement | Status |
+| :--- | :--- |
+| **Pull Shark** | 🦈 In Progress |
+| **Quickdraw** | ⚡ In Progress |
+| **Pair Extraordinaire** | 🤝 In Progress |
+| **YOLO** | 🚀 In Progress |
+| **Galaxy Brain** | 🧠 In Progress |
+| **Starstruck** | ⭐ In Progress |
+
+---
 
 ## 📋 Project Overview
 
